@@ -1,0 +1,21 @@
+{
+  "description": "Add the ability to visually archive some trello organization's organizations",
+  "manifest_version": 2,
+  "name": "Trello Archiver",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "kevin@craftsmen.io"
+    }
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.trello.com/*"],
+      "js": ["jquery-2.1.4.min.js", "archiver.js"]
+    }
+  ]
+}
