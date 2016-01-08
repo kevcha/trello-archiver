@@ -9,8 +9,8 @@
     }
   },
   "icons": {
-    "48": "trello-archiver-48.png",
-    "128": "trello-archiver-128.png"
+    "48": "assets/trello-archiver-48.png",
+    "128": "assets/trello-archiver-128.png"
   },
   "permissions": [
     "http://*/*",
