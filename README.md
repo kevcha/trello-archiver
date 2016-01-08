@@ -1,8 +1,15 @@
 # Trello Archiver
 
-Trello Archiver lets you show or hide Trello organizations to clean up user interface for Trello signed in homepage.
-It adds a "Hide" button after "Settings" one in organizations header. When hidden, only header of organization is shown, and the button label becomes "Show".
+## Why ?
+At Craftsmen, we're creating a Trello Organization for each new project.
+So we have a lot of organzations, and our Trello homepage starts to a big mess.
+So we created Trello Archiver, a small plugin to add a Show / Hide feature for organizations with
+data persistence using local storage.
 
-## Data persistence
+![Trello-archiver](assets/trello-archiver.gif)
 
-Data persistence is done using local storage
+## Contributing
+Feel free to open issues, pull requests and fork.
+
+## Licence
+MIT
