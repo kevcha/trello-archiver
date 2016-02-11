@@ -2,7 +2,7 @@
   "description": "Add the ability to visually archive some trello organization's organizations",
   "manifest_version": 2,
   "name": "Trello Archiver",
-  "version": "1.0",
+  "version": "1.1",
   "applications": {
     "gecko": {
       "id": "kevin@craftsmen.io"
