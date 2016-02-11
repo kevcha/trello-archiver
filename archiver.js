@@ -74,7 +74,7 @@ $(function() {
     toggleBoard: function(boardName) {
       $.each(archiver.boards, function(key, board) {
         if (board.name == boardName) {
-          board.archived = board.archived ? false : true;
+          board.archived = !board.archived;
           localStorage.setItem(board.name, board.archived);
           archiver.renderBoard(board);
         }
@@ -83,10 +83,10 @@ $(function() {
 
     renderBoard: function(board) {
       if (board.archived) {
-        board.$element.find('.board-list.js-board-list').hide();
+        board.$element.find('.boards-page-board-section-list').hide();
         board.$element.find('.js-view-org-toggle .boards-page-board-section-header-options-item-name').text('Show');
       } else {
-        board.$element.find('.board-list.js-board-list').show();
+        board.$element.find('.boards-page-board-section-list').show();
         board.$element.find('.js-view-org-toggle .boards-page-board-section-header-options-item-name').text('Hide');
       }
     },
